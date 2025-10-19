@@ -19,7 +19,7 @@ namespace Tyuiu.SamolovovaOA.Sprint3.Task5.V17.Test
                 }
             }
             expected = Math.Round(expected, 3);
-            double actual = ds.GetSumSumSeries(x, 1, 3, 1, 12);
+            double actual = ds.GetSumSumSeries(x, 1, 1, 3, 12);
             Assert.AreEqual(expected, actual);
         }
     }
